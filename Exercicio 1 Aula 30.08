@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
+Escreva um algoritmo que calcule o peso ideal de uma pessoa
+baseada na sua altura e sexo. Assim, o algoritmo deve receber
+como entrada o sexo da pessoa (‘m’ ou ‘M’ para masculino e ‘f’ ou
+‘F’ para feminino) e a altura em metros. Para cálculo do peso ideal,
+você deve se basear na regra abaixo:
+• para homens: (72.7 * h) – 58;
+• para mulheres: (62.1 * h) – 44.7.
 
 {
     double h, pesoideal;
