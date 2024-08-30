@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main()
+{
+    /* calculo de seno/cosseno/tangente
+
+    double angulo, seno, cosseno, tangente;
+
+    printf("Digite o angulo em graus: \n");
+    scanf("%lf", &angulo);
+    angulo = angulo *(M_PI / 180.0); //Valor do Angulo em radianos
+    printf("O Angulo digitado eh: %lf \n", angulo); // Imprime Valor lido
+    seno = sin(angulo);
+    cosseno = cos(angulo);
+    tangente = tan(angulo);
+    printf("Seno: %lf \t Cosseno: %lf \t Tangente: %lf", seno, cosseno, tangente);*/
+
+
+    /* calculo de raiz quadrada
+
+    double valor, raiz;
+
+
+    printf("Digite um valor e veja sua raiz quadrada. O Valor deve ser maior ou igual a zero: \n");
+    scanf("%lf", &valor);
+    raiz = sqrt(valor);
+    printf("a raiz de %lf eh %lf", valor, raiz);
+
+    */
+
+    int numero, meu_numero;
+    meu_numero = 1;
+
+    printf("Digite um valor inteiro: \n");
+    scanf("%d", &numero);
+
+    if(meu_numero == numero){
+    printf("Os numeros sao iguais \n");
+
+    }else{
+        printf("Os numeros sao diferentes \n");
+    }
+
+    printf("O sistema terminou \n");
+    return 0;
+}
