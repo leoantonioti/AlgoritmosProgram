@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{   int a;
+    printf("Digite a primeira variavel: \n");
+    scanf("%d", &a);
+
+    int b;
+    printf("Digite a segunda variavel: \n");
+    scanf("%d", &b);
+
+    int c;
+    printf("Digite a terceira variavel: \n");
+    scanf("%d", &c);
+
+    int calc;
+
+    calc = 2 *((a - c)/8) - b * 5;
+    printf("a equação: 2 *((%d - %d)/8) - %d * 5; \n",a,b,c);
+    printf("o valor de x eh: %d", calc);
+
+    return 0;
+
+}
