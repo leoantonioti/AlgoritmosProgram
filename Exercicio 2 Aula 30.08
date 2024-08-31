@@ -20,6 +20,7 @@ int main()
     scanf("%lf", &altura);
 
     imc = peso / pow(altura,2);
+    printf("Seu imc eh: %.2lf \n", imc);
 
     if (imc < 18.5){
         printf("Magreza");
