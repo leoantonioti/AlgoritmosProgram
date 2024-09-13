@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1726269898 source:c:\users\autologon\desktop\aula 13 set\aula 13 set (for)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+
