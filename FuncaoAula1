@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/*
+    Exemplo de função sem retorno e sem parametros.
+*/
+
+// Declaracao da Funcao \/
+
+void minhaFuncao(){
+    printf("Executou a funcao minhaFuncao \n");
+}
+
+int main()
+{
+  printf("Ola! Executando a main \n");
+  minhaFuncao(); 
+  return 0;
+}
+
