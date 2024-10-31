@@ -12,6 +12,8 @@ void minhaFuncao(){
     printf("Executou a funcao minhaFuncao \n");
 }
 
+void minhaFuncao(); // Prototipo da Funcao
+
 int main()
 {
   printf("Ola! Executando a main \n");
