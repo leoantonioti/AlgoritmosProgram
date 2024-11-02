@@ -53,3 +53,75 @@ int main()
    int s = n1+n2;
    printf("A soma eh [%d]\n", s);
  }
+
+
+==========================================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Escreva um procedimento que recebe um número como parâmetro e diz se
+esse número é par ou ímpar. */
+
+    void parimpar(int num1);
+
+int main()
+{
+    int numero;
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+    parimpar(numero);
+
+    return 0;
+}
+    void parimpar(num1){
+
+    if(num1%2 == 0){
+        printf("[%d] eh PAR!!!\n", num1);
+    }else{
+        printf("[%d] eh IMPAR!!!\n", num1);
+    }
+
+    }
+
+====================================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Escreva um procedimento que recebe um número como parâmetro e diz se
+esse número é primo. */
+
+    void primo(int num);
+
+int main()
+{
+    int valor = 0;
+    do{
+    printf("Digite um numero inteiro ou [0] para sair: \n");
+    scanf("%d", &valor);
+    primo(valor); // chamada de funcao
+    }while(valor !=0);
+    return 0;
+
+
+
+}
+    void primo(int num){
+     int divisivel = 0;
+     for(int i=2; i < num; i++){ // percorre todos os numeros ate < num
+        if(num%i == 0){ // testa divisao
+            divisivel++; // Se for divisivel aumenta 1
+        }
+     }
+     if(divisivel == 0 && num > 0){
+        printf("[%d] eh primo! \n", num);
+     }else if(num == 0){
+        printf("Saindo!");
+     }else{
+        printf("[%d] nao eh primo! \n", num);
+        }
+    }
+
+=======================================================================
+
